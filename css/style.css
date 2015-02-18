@@ -51,6 +51,9 @@ ol, ul {
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 
 .top-navigation .logo {
@@ -146,8 +149,4 @@ ol, ul {
 .devices {
   display: flex;
   height: 300px;
-}
-
-.cases .devices > li .1 {
-	margin-right: -20;
 }
