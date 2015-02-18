@@ -122,3 +122,10 @@ ol, ul {
 	background-color: #FF4719;
 	cursor: pointer;
 }
+
+.cases h2 {
+	text-align: center;
+	font-weight: 300;
+	margin: 2em 0 1em;
+	font-size: 3em;
+}
