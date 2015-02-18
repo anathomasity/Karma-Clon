@@ -129,3 +129,25 @@ ol, ul {
 	margin: 2em 0 1em;
 	font-size: 3em;
 }
+
+.cases .devices > li {
+  width: 100px;  /* Or whatever */
+  height: 100px; /* Or whatever */
+  margin: 0 auto;
+}
+
+.cases .devices h3 {
+	font-weight: 400;
+	font-size: 1.5rem;
+	margin: 2.5rem 0px 1.875rem;
+	text-align: center;
+}
+
+.devices {
+  display: flex;
+  height: 300px;
+}
+
+.cases .devices > li .1 {
+	margin-right: -20;
+}
