@@ -94,11 +94,31 @@ ol, ul {
 }
 
 .introduction h1 {
-    margin-top: 17.5rem;
+    padding-top: 12.5rem;
     font-size: 3.125rem;
 }
 
 .introduction h3 {
     margin-top: 1.25rem;
     font-size: 1.563rem;
+    margin-bottom: 1.25rem;
+}
+
+.big-button {
+	text-shadow:none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 16px 26px;
+	line-height: 1.33;
+	display: block;
+	margin: 0 auto;
+	width: 8em;
+    background-color: #FF7519;
+    color: white;
+    font-size: 1.2em;
+}
+
+.big-button:hover {
+	background-color: #FF4719;
+	cursor: pointer;
 }
