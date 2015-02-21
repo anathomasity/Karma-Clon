@@ -144,9 +144,54 @@ ol, ul {
 	font-size: 1.5rem;
 	margin: 2.5rem 0px 1.875rem;
 	text-align: center;
+	
 }
 
-.devices {
+.cases .devices {
   display: flex;
   height: 300px;
+  width: 55%;
+  text-align: center;
+  margin:auto;
+  
+}
+
+.social .content .icons {
+	box-sizing: border-box;
+	width: 20%;
+	margin: auto;
+	text-align: center;
+}
+
+.social .content .icons > li {
+
+border-radius: 1.25rem;
+width: 2.5rem;
+height: 2.5rem;
+display: inline-block;
+margin: 1.25rem 5px;
+border: 1px solid #eaebec;
+padding: 0.625rem 0;
+text-align: center;
+
+
+}
+
+hr {
+	width: 55%;
+	border: 0;
+	border-top: 1px solid #eaebec;
+}
+
+h5 {
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 20px;
+}
+
+h6 {
+	text-align: center;
+	font-size: 0.9em;
+	padding-bottom: 130px;
+    color: #838994;
 }
