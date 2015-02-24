@@ -42,6 +42,11 @@ ol, ul {
 }
 /* End of Reset */
 /* Start of Custom Styles */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
 .content {
     padding: 0 15px;
     margin: 0 auto;
